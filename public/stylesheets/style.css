@@ -16,3 +16,17 @@ p{
 button {
 	color: #e05eac;
 }
+p#option{
+	text-align: left;
+    font: 12px "Lucia Grande", Helvetica, Arial, sans-serif;
+}
+h5{
+	color: #e05eac;
+}
+h2#option{
+	color: #e05eac;
+	padding-top: 50px;
+    padding-right: 30px;
+    padding-bottom: 50px;
+    padding-left: 80px;
+}

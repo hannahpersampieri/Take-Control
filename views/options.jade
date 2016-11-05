@@ -1,7 +1,21 @@
 doctype html
 html
 	head
+		link(rel='stylesheet', href='/stylesheets/style.css')
 		title Explore different birth control options
 
 	body
 		h1 Explore different birth control options
+			for option in options
+				h2#option= option.name
+				h5 What is it? 
+				p#option #{option.What}
+				h5 How much does it cost?
+				p#option #{option.Cost}
+				h5 How long does it last?
+				p#option #{option.Longevity}
+				h5 What are the benefits?
+				p#option #{option.Pros}
+				h5 What are some problems associated with this method of birth control?
+				p#option #{option.Cons}
+
