@@ -6,3 +6,13 @@ body {
 a {
   color: #00B7FF;
 }
+h1 {
+	color: #e05eac;
+	text-align: center;
+}
+p{
+	text-align: center;
+}
+button {
+	color: #e05eac;
+}
