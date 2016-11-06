@@ -9,6 +9,8 @@ The quiz within this application utilizes multiple questions and a weighting sys
 
 This web application utilizes the following tools and frameworks: Node.js, Express, jQuery, Typeform API, Heroku
 
+All information was researched via Planned Parenthood. A registered gynocologist was contacted as well.
+
 #### Next steps:
 There's more to come for Take Control. Some of the ideas we are thinking of to be a better resource:
 - Providing locations of Planned Parenthood, Pharmacies, and Doctors near you
