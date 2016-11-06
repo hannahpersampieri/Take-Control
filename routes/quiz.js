@@ -34,7 +34,8 @@ var weights = {
 function calculate_score(response, type){
 	var score = 0;
 	var method = answers[type];
-	for(question_id in questions){
+	for(i in questions){
+		question_id = questions[i];
 		if (response[question_id] in method[question_id]){
 			weight = weights[question_id];
 			score += weight;
@@ -46,23 +47,24 @@ function calculate_score(response, type){
 
 router.get('/results', function(req,res,next) {
 	/* make get request for most recent typeform */
+	var max_type = "";
 	request('https://api.typeform.com/v1/form/qCjOnG?key=6ba04dc17d625daf2b48d2d44f2c76c99f21444b&order_by[]=date_submit,desc&offset=0&limit=1',function (error, response, body) {
 		if (!error && response.statusCode == 200) {
-			// TO_DO: process results and return what is best
-			result = JSON.stringify(JSON.parse(body), null, 4);
-			console.log(result);
+			result = JSON.parse(body);
+			console.log(JSON.stringify(result, null, 4));
 			var max = 0;
-			var max_type = "";
-			for (type in Object.keys(answers)){
+			var key_list = Object.keys(answers);
+			for (key_index in key_list){
+				type = key_list[key_index];
 				var score = calculate_score(result.responses[0].answers, type);
 				if (score > max){
 					max = score;
 					max_type = type;
 				}
 			}
+			res.render('results', options.options[max_type]);
 		}
 	})
-	res.render('results', options[max_type]);
 });
 
 module.exports = router;

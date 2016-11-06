@@ -5,17 +5,17 @@ html
 	body
 		h1 Based on your quiz, here is a method that might be right for you.
 
-		h2#option= option.name
+		h2#option= name
 				h5 What is it? 
-				p#option #{option.What}
+				p#option #{What}
 				h5 How much does it cost?
-				p#option #{option.Cost}
+				p#option #{Cost}
 				h5 How long does it last?
-				p#option #{option.Longevity}
+				p#option #{Longevity}
 				h5 What are the benefits?
-				p#option #{option.Pros}
+				p#option #{Pros}
 				h5 What are some problems associated with this method of birth control?
-				p#option #{option.Cons}
+				p#option #{Cons}
 
 		button(onclick = "move()") Explore all options
 		script.
