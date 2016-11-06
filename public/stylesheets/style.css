@@ -97,3 +97,11 @@ h2#option{
 	margin-bottom: 30px;
 	display: block;
 }
+
+.panel-heading {
+	background-color: #ffc2cd !important;
+}
+
+.options_title {
+	margin-bottom: 30px;
+}

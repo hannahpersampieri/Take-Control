@@ -18,21 +18,28 @@ html
 						a(href='/quiz') Quiz 
 					li.active
 						a(href='/options') Info
+					li
+						a(href="https://www.plannedparenthood.org/learn/birth-control") Planned Parenthood
 
-		h1 Explore different birth control options
+		h1.options_title Explore different birth control options
 		for option in options
 			.panel.panel-default
 				.panel-heading
 					h3.panel-title= option.name
-				.panel-body
-					p= option.What
 				ul.list-group
-					li.list-group-item Cost: #{option.Cost}
-					li.list-group-item Longevity: #{option.Longevity}
-					li.list-group-item Benefits: #{option.Pros}
-					li.list-group-item Problems: #{option.Cons}
-
-		h4 For more information about birth control options, 
-			a(href="https://www.plannedparenthood.org/learn/birth-control") Visit
-					| the Planned Parenthood website
+					li.list-group-item
+						b Description: 
+						span  #{option.What}
+					li.list-group-item
+						b Cost: 
+						span  #{option.Cost}
+					li.list-group-item 
+						b Longevity:
+						span  #{option.Longevity}
+					li.list-group-item
+						b Benefits: 
+						span  #{option.Pros}
+					li.list-group-item
+						b Problems: 
+						span  #{option.Cons}
 

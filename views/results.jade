@@ -18,23 +18,32 @@ html
 						a(href='/quiz') Quiz 
 					li
 						a(href='/options') Info
+					li
+						a(href="https://www.plannedparenthood.org/learn/birth-control") Planned Parenthood
 
-		h1 Based on your quiz, here is a method that might be right for you.
+		h1.quiz_title Birth Control Quiz Results
+		h3.subtitle Based on your quiz, here is a method that might be right for you.
 
-		h2#option= name
-				h5 What is it? 
-				p#option #{What}
-				h5 How much does it cost?
-				p#option #{Cost}
-				h5 How long does it last?
-				p#option #{Longevity}
-				h5 What are the benefits?
-				p#option #{Pros}
-				h5 What are some problems associated with this method of birth control?
-				p#option #{sCons}
+		
+		.panel.panel-default
+			.panel-heading
+				h3.panel-title= name
+			ul.list-group
+				li.list-group-item
+					b Description: 
+					span  #{What}
+				li.list-group-item
+					b Cost: 
+					span  #{Cost}
+				li.list-group-item 
+					b Longevity:
+					span  #{Longevity}
+				li.list-group-item
+					b Benefits: 
+					span  #{Pros}
+				li.list-group-item
+					b Problems: 
+					span  #{Cons}	
 
-		button(onclick = "move()") Explore all options
-		script.
-			function move(){
-				window.location.href = '/options'
-			}
+		#links
+			a.quiz.btn.btn-primary.btn-lg.btn-block(type='button', href="/options") Explore all options
