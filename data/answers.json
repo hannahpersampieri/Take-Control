@@ -10,7 +10,7 @@
 								"Mental disorder medication",
 								"Herbals like St. John's wort"],
 		"yesno_35790408": ["1","0"],
-		"yesno_35790422": ["1", "0"],
+		"yesno_35790422": ["1", "0"]
 	},
 	"IUD":{
 		"list_35790269_choice":["I want something that lasts for a year or more at a time"],
@@ -18,7 +18,7 @@
 		"yesno_35790312": ["1", "0"],
 		"dropdown_35790400":[],
 		"yesno_35790408": ["1","0"],
-		"yesno_35790422": ["0"],
+		"yesno_35790422": ["0"]
 	},
 	"Patch":{
 		"list_35790269_choice":["I want something I can use monthly"],
@@ -30,7 +30,7 @@
 								"Anti-seizure medication",
 								"Herbals like St. John's wort"],
 		"yesno_35790408": ["1","0"],
-		"yesno_35790422": ["1", "0"],
+		"yesno_35790422": ["1", "0"]
 	},
 	"Pill":{
 		"list_35790269_choice":["I want something that I can use monthly"],
@@ -42,7 +42,7 @@
 								"Anti-seizure medication",
 								"Herbals like St. John's wort"],
 		"yesno_35790408": ["1","0"],
-		"yesno_35790422": ["1", "0"],
+		"yesno_35790422": ["1", "0"]
 	},
 	"Shot":{
 		"list_35790269_choice":["I want something that I can use monthly"],
@@ -50,7 +50,7 @@
 		"yesno_35790312": ["1"],
 		"dropdown_35790400":["Aminoglutethamide to treat Cushing's syndrome"],
 		"yesno_35790408": ["1","0"],
-		"yesno_35790422": ["1", "0"],
+		"yesno_35790422": ["1", "0"]
 	},
 	"Ring":{
 		"list_35790269_choice":["I want something that I can use monthly"],
@@ -62,7 +62,7 @@
 								"Anti-seizure medication",
 								"Herbals like St. John's wort"],
 		"yesno_35790408": ["0"],
-		"yesno_35790422": ["1", "0"],
+		"yesno_35790422": ["1", "0"]
 	},
 	"Sponge":{
 		"list_35790269_choice":["I want something that I use once"],
@@ -70,7 +70,7 @@
 		"yesno_35790312": ["0", "1"],
 		"dropdown_35790400":[],
 		"yesno_35790408": ["0"],
-		"yesno_35790422": ["1", "0"],
+		"yesno_35790422": ["1", "0"]
 	},
 	"Cap":{
 		"list_35790269_choice":["I want something that I use once"],
@@ -78,6 +78,6 @@
 		"yesno_35790312": ["0", "1"],
 		"dropdown_35790400":[],
 		"yesno_35790408": ["0"],
-		"yesno_35790422": ["1", "0"],
+		"yesno_35790422": ["1", "0"]
 	}
 }

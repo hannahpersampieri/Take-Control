@@ -28,7 +28,7 @@ var weights = {
 	"yesno_35790312":3,
 	"dropdown_35790400":6,
 	"yesno_35790408": 5,
-	"yesno_35790422":2,
+	"yesno_35790422":2
 }
 
 function calculate_score(response, type){
