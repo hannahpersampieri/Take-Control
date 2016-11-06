@@ -1,6 +1,6 @@
 {
 	"options":{	
-		"cap": {
+		"Cap": {
 			"name":"Cap/Diaphragm",
 			"What":"Cap inserted up to six hours before intercourse in order to block sperm",
 			"Cost": "$0-75",
@@ -8,7 +8,7 @@
 			"Pros":"Does not alter body's natural hormones, cannot be felt",
 			"Cons":"Not only does it have to be manually inserted, but there is a risk of infection or allergic reaction. The cap is only 86% effective, and cannot be used if the user has recently given birth."
 		},
-		"implant":{
+		"Implant":{
 			"name":"Birth Control Implant",
 			"What":"Thin plastic implant inserted into upper arm",
 			"Cost": "$0-800",
@@ -24,7 +24,7 @@
 			"Pros":"Non-hormonal, reversible, no matience required-- the only time you have to deal with it is to remove it",
 			"Cons":"Can cause changes in period, as well as increased cramps. Also known for painful insertion/removal that can only be done by a gynocologist."
 		},
-		"patch":{
+		"Patch":{
 			"name":"Birth Control Patch",
 			"What":"Small patch that sticks to your skin to prevent pregnancy",
 			"Cost": "$0-80 a month",
@@ -32,7 +32,7 @@
 			"Pros":"Easy to get without perscription. Can help with a lot of side effects from menstruation, and is 91% effective if taken correctly. Can also be stopped at any time without seeing a doctor.",
 			"Cons":"Bleeding, nausea, vomiting, decreased sex drive, certain demographics at high risk for blood clots"
 		},
-		"pill": {
+		"Pill": {
 			"name":"Birth Control Pill",
 			"What":"A pill that is taken daily by the user that prevents pregnancy",
 			"Cost": "$0-50 a month",
@@ -40,7 +40,7 @@
 			"Pros":"Can help with a lot of side effects from menstruation, and is 99% effective if taken correctly. Can also be stopped at any time without seeing a doctor.",
 			"Cons":"Less effective if you are overweight,  you could forget to take a pill, and cannot be taken with the following medications: the antibiotic rifampin — other antibiotics do not make the pill less effective, the antifungal griseofulvin — other antifungals do not make the pill less effective, certain HIV medicines certain, anti-seizure medicines, St. John's wort"
 		},
-		"ring":{
+		"Ring":{
 			"name":"Vaginal ring",
 			"What":"Ring inserted 3 weeks at a time to prevent pregnancy",
 			"Cost": "$0-80 per month",
@@ -48,7 +48,7 @@
 			"Pros":"Reduces hormonal side effects from menstruation, easy to insert/remove",
 			"Cons":"Can cause irregular bleeding or discomfort, and an increased risk of infection. Perscription is required. "
 		},
-		"shot": {
+		"Shot": {
 			"name":"Birth control shot",
 			"What":"An injection into the arm that prevents pregnancy",
 			"Cost": "$0-100 per shot",
@@ -56,7 +56,7 @@
 			"Pros":"Safe, easy, private, does not contain estrogen, and can help prevent cancer",
 			"Cons":"Can not take if you have breast cancer, fragile bones, or are taking aminoglutethamide to treat Cushing's syndrome. Side effects include: changes in periods, sex drive, appitite, weight gain, depression, migraines, hair loss/growth, nausea, sore breasts"
 		},
-		"sponge":{
+		"Sponge":{
 			"name":"Sponge",
 			"What":"Sponge inserted up to six hours before intercourse in order to block sperm",
 			"Cost": "$0-15 for a pack of three sponges",
