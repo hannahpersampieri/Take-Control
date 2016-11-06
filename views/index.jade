@@ -1,15 +1,31 @@
-extends layout
+doctype html
+html
+	head
+		title = Take the Quiz
+		link(rel='stylesheet', href='/css/bootstrap.css')
+		link(rel='stylesheet', href='/stylesheets/style.css')
+		script(src= "https://code.jquery.com/jquery-3.1.1.js", integrity= "sha256-16cdPddA6VdVInumRGo6IbivbERE8p7CQR3HzTBuELA=", crossorigin= "anonymous")
+		script(src= "/js/bootstrap.js")
 
-block content
-	h1= title
-	p Let us help you find the best birth control for your needs.
-	button(onclick="quiz()") Take the quiz
-	script.
-		function quiz() {
-			window.location.href = '/Quiz'
-		}
-	button(onclick = "move()") Explore all options
-	script.
-		function move(){
-			window.location.href = '/options'
-		}
+	body
+		nav.navbar.navbar-default.navbar-static-top
+			.container-fluid
+				// Brand and toggle get grouped for better mobile display
+				.navbar-header
+					a.navbar-brand(href='/') Take Control
+				ul.nav.navbar-nav
+					li
+						a(href='/quiz') Quiz 
+					li
+						a(href='/options') Info
+
+		h1 Find Birth Control 
+		h3.subtitle Let us help you find the best birth control for your needs.
+		#image
+			img.img-thumbnail(src="/img/landing_page.jpg")
+		#links
+			//- .btn-group-vertical(role='group')
+			//- 	button.btn.btn-default(type='button', href="/quiz") Take the quiz
+			//- 	button.btn.btn-default(type='button', href="/options") Explore all options
+			a.quiz.btn.btn-primary.btn-lg.btn-block(type='button', href="/quiz") Take the quiz
+			a.options.btn.btn-default.btn-lg.btn-block(type='button', href="/options") Explore all options

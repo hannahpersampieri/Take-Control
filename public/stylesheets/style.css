@@ -1,18 +1,19 @@
 body {
-  padding: 50px;
+  /*padding: 50px;*/
   font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
+	background-color: #ececec;
 }
 
-a {
+/*a {
   color: #00B7FF;
-}
+}*/
 h1 {
-	color: #e05eac;
+	color: #ff084a;
 	text-align: center;
 }
-p{
+/*p{
 	text-align: center;
-}
+}*/
 button {
 	color: #e05eac;
 }
@@ -29,4 +30,70 @@ h2#option{
     padding-right: 30px;
     padding-bottom: 50px;
     padding-left: 80px;
+}
+
+.navbar li {
+	cursor: pointer;
+}
+
+.subtitle {
+	color: #ff6289;
+	text-align: center;;
+}
+
+.navbar {
+	background-color: #ffe6e6;
+	border-bottom: 1px #fc3468 solid;
+}
+.navbar li a {
+	color: #666 !important;
+}
+.navbar li a:hover {
+	color: #333 !important;
+}
+.navbar li.active a {
+	background-color: #ffcccc !important;
+	color: #333 !important;
+}
+.navbar li.active a:hover {
+	color: #000 !important;
+}
+.navbar-default .navbar-brand {
+	color: #666;
+}
+
+#links {
+	max-width: 610px;
+	margin: 0 auto;
+	margin-top: 20px;
+}
+
+#links .quiz {
+	background-color: #ffc2cd;
+	border-color: #fc3468;
+	color: white;
+}
+#links .quiz:hover {
+	background-color: #ffa2ad;
+	border-color: #fc3468;
+	color: white;
+}
+
+/*#links .options {
+	background-color: #ffc2cd;
+	border-color: #fc3468;
+	color: #eee;
+}*/
+
+#image img {
+	border: 1px #fc3468 solid;
+  display: block;
+  margin: 0 auto;
+}
+
+.panel {
+	max-width: 800px;
+	margin: 0 auto;
+	margin-bottom: 30px;
+	display: block;
 }
