@@ -40,6 +40,14 @@ function calculate_score(response, type){
 			weight = weights[question_id];
 			score += weight;
 		}
+		// hack-y way of getting questions to rank lower if need be-- important for "dealbreakers"
+		if(question_id == "list_35790302_choice" && response[question_id] == "I'm not at all" && (type == "IUD" || type == "Sponge" || type == "Ring" || type == "Cap")){
+			score = score - 5;
+		}
+		
+		if(question_id == "dropdown_35790400" && response[question_id] != "None" && (type == "Pill" || type == "Shot")){
+			score = score - 20;
+		}
 	}
 	console.log(type + " " + score);
 	return score;
